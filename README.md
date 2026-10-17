@@ -41,13 +41,13 @@ Question ──► Embed question ──► Retrieve top-k similar chunks ◄─
 RAG-Project/
 ├── notebook/
 │   └── pdf_loader.ipynb    # the full pipeline, step by step
+│   └── documents.ipynb    # the data loader
 ├── data/
 │   ├── pdf/                # put your PDFs here (not tracked by Git)
 │   └── vector_store/       # generated ChromaDB files (not tracked by Git)
 ├── pyproject.toml          # dependencies
 ├── uv.lock
-└── .env                    # your API key (not tracked by Git)
-```
+└── .env                    # your API key 
 
 ## Getting started
 
